@@ -1,0 +1,20 @@
+@import "appbar.css";
+@import "booklist.css";
+@import "searchbar.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #0099ff 0%, #66ffff 100%)
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}
